@@ -22,8 +22,8 @@ function Projects () {
 
           <Col md={6}>
 
-            <Card className="card" className="p-2 mt-3 text-center">
-              <Card.Img  variant="top" src="./travelFolio.jpg" />
+            <Card className=" card p-2 mt-3 text-center">
+              <Card.Img  variant="top" src="./travelFolio.jpg" alt="travelfolio"/>
               <Card.Title className="mt-4">MY TRAVEL FOLIO</Card.Title>
               <Card.Body>
               <Card.Text className="mb-5">
@@ -41,8 +41,8 @@ function Projects () {
 
           <Col md={6} className="align-self-center text-center">
 
-            <Card className="card" className="p-2 mt-3 text-center">
-              <Card.Img  variant="top" src="./travelSafe.jpg" />
+            <Card className=" card p-2 mt-3 text-center">
+              <Card.Img  variant="top" src="./travelSafe.jpg" alt="travelsafe"/>
               <Card.Title className="mt-4">TRAVEL SAFE</Card.Title>
               <Card.Body>
               <Card.Text>
@@ -61,8 +61,8 @@ function Projects () {
 
           <Col md={6}>
 
-              <Card className="card" className="p-2 mt-3 text-center">
-              <Card.Img  variant="top" src="./misoTheCat.jpg" />
+              <Card className=" card p-2 mt-3 text-center">
+              <Card.Img  variant="top" src="./misoTheCat.jpg" alt="misothecat"/>
               <Card.Title className="mt-4">MISO, THE CAT ADVENTURE</Card.Title>
               <Card.Body>
               <Card.Text>

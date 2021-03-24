@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import './About.css';
 import {animateScroll as scroll, Link} from 'react-scroll'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faChevronUp, faChevronDown, faCode} from '@fortawesome/free-solid-svg-icons';
+import {faChevronUp, faChevronDown} from '@fortawesome/free-solid-svg-icons';
 import {faHtml5, faCss3Alt, faJsSquare, faNodeJs, faReact, faGithub, faBootstrap, faGitSquare } from '@fortawesome/free-brands-svg-icons';
 import { Icon } from '@iconify/react';
 // import herokuIcon from '@iconify-icons/cib/heroku';
