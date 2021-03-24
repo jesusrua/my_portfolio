@@ -32,3 +32,6 @@
   color: #073a61;
   text-decoration: none;
 }
+.linkClass:visited {
+  color: white;
+}

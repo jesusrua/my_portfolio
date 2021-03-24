@@ -98,7 +98,7 @@ function About () {
             <Col>
               <Row>
                 <Col>
-                  <img src="./my-picture.jpg" alt="my-picture" id="my-picture"/>
+                  <img src="./my-picture.jpg" alt="jesusrua" id="my-picture"/>
                 </Col>
               </Row>
             </Col> 
