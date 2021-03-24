@@ -1,0 +1,33 @@
+.projects {
+  /* background-color: #e4c3ad; */
+  background-color: #ecc7c5;
+  /* background-color: #546a7b; */
+  min-height: 100vh;
+}
+
+.containerProjects {
+    min-height: 80vh;
+}
+
+.card {
+  background: rgb(255, 255, 255, 0.5);
+  /* background-color: #fae1dfbb; */
+  border: none;
+  height: 650px;
+}
+
+.card:hover {
+  border: 3px solid whitesmoke;
+}
+
+.techLogos2 {
+  font-size: 40px;
+}
+
+.projectLink {
+  color:#0d1f2d;
+}
+
+.projectLink:hover {
+  color: #546a7b;
+}

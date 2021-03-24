@@ -1,0 +1,35 @@
+.main {
+  height: 100vh;
+  background-color: #0D1F2D;
+  display:flex;
+}
+
+.main-text {
+  color: #E4C3AD;
+  font-weight: 900;
+}
+
+.btn {
+  background-color: #9EA3B0;
+  color: #0D1F2D;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #7a7d86;
+  color: white;
+}
+
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+  background-color: #7a7d86;
+  color: white;
+}
+
+
+@media(max-width: 360px) {
+  .typicalText {
+    font-size: 25px ;
+  }
+}

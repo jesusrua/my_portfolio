@@ -1,0 +1,37 @@
+.about {
+  min-height: 100vh;
+  background-color: #fae1df;
+}
+
+#my-picture {
+  border-radius: 50%;
+}
+
+.containerAbout {
+  min-height: 80vh;
+}
+
+.linkClass {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #29618b;
+}
+
+.paragraphLine {
+  border-bottom: 1px solid black;
+}
+
+.techRows {
+  width: 70%;
+}
+
+.descriptionCol {
+  width: 50%;
+}
+
+@media(max-width: 770px) {
+
+  #my-picture {
+    width: 270px;
+  }
+}

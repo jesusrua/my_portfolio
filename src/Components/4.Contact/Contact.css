@@ -1,0 +1,34 @@
+.contact {
+  min-height: 100vh;
+  /* background-color: #9ea3b0; */
+  background-color: #546a7b;
+  color: whitesmoke;
+}
+
+.btn {
+  /* background-color: #9EA3B0; */
+  background-color: #0D1F2D;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #073a61;
+  color: white;
+}
+
+.formTitle {
+  font-weight: bold;
+}
+
+.linkClass {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+  text-decoration: none;
+}
+
+.linkClass:hover {
+  color: #073a61;
+  text-decoration: none;
+}
