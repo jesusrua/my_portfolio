@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from './Contact.css';
+import './Contact.css';
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin, faGithubSquare} from '@fortawesome/free-brands-svg-icons';

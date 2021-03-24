@@ -1,9 +1,9 @@
 import React from 'react';
 import {Container, Row, Col, Card} from 'react-bootstrap';
-import Styles from './Projects.css';
+import './Projects.css';
 import {animateScroll as scroll, Link} from 'react-scroll'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faChevronUp, faChevronDown, faCode, faExternalLinkSquareAlt} from '@fortawesome/free-solid-svg-icons';
+import {faChevronUp, faChevronDown, faExternalLinkSquareAlt} from '@fortawesome/free-solid-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 
 function Projects () {
@@ -31,8 +31,8 @@ function Projects () {
               </Card.Text>
               <Card.Subtitle className="mb-3">JS, ReactJs, HTML, CSS, Bootstrap, Mongo Atlas, Netlify.</Card.Subtitle>
               <Card.Text>
-               <a className="p-2 projectLink" href="https://github.com/My-Travel-Folio/my-travel-folio-FRONT" target="_blank"><FontAwesomeIcon className="techLogos2 m" icon={faGithub}/></a>
-               <a className="p-2 projectLink" href="https://my-travel-folio.netlify.app/" target="_blank"><FontAwesomeIcon className="techLogos2" icon={faExternalLinkSquareAlt}/></a>
+               <a className="p-2 projectLink" href="https://github.com/My-Travel-Folio/my-travel-folio-FRONT" target="_blank" rel="noreferrer"><FontAwesomeIcon className="techLogos2 m" icon={faGithub}/></a>
+               <a className="p-2 projectLink" href="https://my-travel-folio.netlify.app/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="techLogos2" icon={faExternalLinkSquareAlt}/></a>
               </Card.Text>
               </Card.Body>
             </Card>
@@ -50,8 +50,8 @@ function Projects () {
               </Card.Text>
               <Card.Subtitle className="mb-3">JS, NodeJs/ExpressJs, HBS, Bootstrap, Mongo Atlas, Heroku.</Card.Subtitle>
               <Card.Text>
-               <a className="p-2 projectLink" href="https://github.com/TRAVELsafeProject/TRAVELsafe" target="_blank"><FontAwesomeIcon className="techLogos2 m" icon={faGithub}/></a>
-               <a className="p-2 projectLink" href="https://app-travel-safe.herokuapp.com/" target="_blank"><FontAwesomeIcon className="techLogos2" icon={faExternalLinkSquareAlt}/></a>
+               <a className="p-2 projectLink" href="https://github.com/TRAVELsafeProject/TRAVELsafe" target="_blank" rel="noreferrer"><FontAwesomeIcon className="techLogos2 m" icon={faGithub}/></a>
+               <a className="p-2 projectLink" href="https://app-travel-safe.herokuapp.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="techLogos2" icon={faExternalLinkSquareAlt}/></a>
               </Card.Text>
               
               </Card.Body>

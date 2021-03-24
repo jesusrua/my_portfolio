@@ -2,7 +2,7 @@ import React from 'react';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import Typical from 'react-typical';
 import {Link} from 'react-scroll';
-import Styles from './Main.css';
+import './Main.css';
 
 function Main () {
 

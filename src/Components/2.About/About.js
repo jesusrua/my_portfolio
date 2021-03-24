@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-import Styles from './About.css';
+import './About.css';
 import {animateScroll as scroll, Link} from 'react-scroll'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faChevronUp, faChevronDown, faCode} from '@fortawesome/free-solid-svg-icons';
