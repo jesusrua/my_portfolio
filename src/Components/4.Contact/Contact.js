@@ -3,9 +3,22 @@ import './Contact.css';
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin, faGithubSquare} from '@fortawesome/free-brands-svg-icons';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 function Contact () {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('portfolioMail', 'portfolio_template', e.target, 'user_iS8uSaziVTmGVlXae6csZ')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+      e.target.reset()
+  }
+
 
   return(
     <Container fluid className="contact">
@@ -25,27 +38,27 @@ function Contact () {
         </Row>
 
         <Row className="justify-content-center mt-4 mb-4">
-          <Col md={6}>
-            <Form>
+          <Col md={6} lg={6}>
+            <Form onSubmit={sendEmail}>
               <Form.Group>
                 <Form.Label className="formTitle">Subject:</Form.Label>
-                <Form.Control type="text" placeholer="SUBJECT"/>
+                <Form.Control type="text" placeholer="Subject" name="subject"/>
               </Form.Group>
               <Form.Group>
                 <Form.Label className="formTitle">Name:</Form.Label>
-                <Form.Control type="text" placeholer="NAME"/>
+                <Form.Control type="text" placeholer="Name" name="name" />
               </Form.Group>
               <Form.Group>
                 <Form.Label className="formTitle">Email:</Form.Label>
-                <Form.Control type="email" placeholer="EMAIL"/>
+                <Form.Control type="email" placeholer="Email" name="email" />
               </Form.Group>
               <Form.Group>
                 <Form.Label className="formTitle">Message:</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+                <Form.Control as="textarea" rows={3} placeholder="Your message" name="message" />
               </Form.Group>
               <Col className="text-center">
                 <Button type="submit">
-                  Submit
+                  Send Message 
                 </Button>                
               </Col>
             </Form>
