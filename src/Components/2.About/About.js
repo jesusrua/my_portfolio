@@ -34,7 +34,7 @@ function About () {
                   Hi there! I'm <b>Jesús</b>, a <b>Full Stack Web Developer</b> based in Barcelona with <b>communications background</b>, until I decided to change it through Ironhack, pushed by the desire of expanding my knowledge to the sector I consider the future.
                   </p>
                   <p>
-                  I consider myself a <b>creative</b> person with an <b>analytical</b> and <b>solving-problem mind</b>. Used to work under preassure and love being member of a team.
+                  I consider myself a <b>creative</b> person with an <b>analytical</b> and <b>solving-problem mind</b>. Used to work under pressure and love being member of a team.
                   </p>
 
                   <p className="paragraphLine"></p>

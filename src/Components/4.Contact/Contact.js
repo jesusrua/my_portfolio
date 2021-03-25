@@ -69,7 +69,7 @@ function Contact () {
 
         <Row className="justify-content-center mt-4">
           <Col className="text-center">
-            <p>Or if it's easier for you, just send me a normal email to <a href="mailto:jesus.rua.pareja@gmail.com" className="linkClass">  jesus.rua.pareja@gmail.com </a> or contact me via <a href="https://www.linkedin.com/in/jesusruapareja/?locale=en_US" target="_blank" rel="noreferrer" className="linkClass">LinkedIn</a>.</p>
+            <p>Or if it's easier for you, just send me a normal email to <a href="mailto:jesus.rua.pareja@gmail.com" className="linkClassContact">  jesus.rua.pareja@gmail.com </a> or contact me via <a href="https://www.linkedin.com/in/jesusruapareja/?locale=en_US" target="_blank" rel="noreferrer" className="linkClassContact">LinkedIn</a>.</p>
             <p>I just thought the form was cool and I needed to fill 100vh 😊</p>
             <p>Cheers! And follow me on:</p>
             <Row>
