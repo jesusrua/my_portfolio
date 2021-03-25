@@ -3,6 +3,8 @@ import './Contact.css';
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin, faGithubSquare} from '@fortawesome/free-brands-svg-icons';
+import {animateScroll as scroll} from 'react-scroll';
+import {faChevronUp} from '@fortawesome/free-solid-svg-icons';
 import emailjs from 'emailjs-com';
 
 function Contact () {
@@ -74,6 +76,13 @@ function Contact () {
               <Col>
                 <a href="https://www.linkedin.com/in/jesusruapareja/?locale=en_US" target="_blank" rel="noreferrer" ><FontAwesomeIcon className="techLogos m-2 linkClassContact" icon={faLinkedin}/></a>
                 <a href="https://github.com/jesusrua" target="_blank" rel="noreferrer"><FontAwesomeIcon className="techLogos m-2 linkClassContact" icon={faGithubSquare}/></a>
+              </Col>
+            </Row>
+
+            <Row className="mt-3">
+              <Col className="text-center ">
+                <FontAwesomeIcon icon={faChevronUp} onClick={()=> scroll.scrollToTop()} />
+                <p className="scroll" onClick={()=> scroll.scrollToTop()}>Back to Top</p>                            
               </Col>
             </Row>
           </Col>
