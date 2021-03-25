@@ -26,7 +26,7 @@ function Main () {
 
         <Row>
           <Col >
-              <Link to="about" smooth={true} duration={1000}><Button className="mr-2 mt-2" variant="light">About Me</Button></Link>
+              <Link to="about" smooth={true} duration={1000}><Button className="mr-2 mt-2 btn2" variant="light">About Me</Button></Link>
               <Link to="projects" smooth={true} duration={1000}><Button className="mr-2 mt-2" variant="light">My Projects</Button></Link>
               <Link to="contact" smooth={true} duration={1000}><Button className="mt-2" variant="light">Contact Me</Button></Link>
           </Col>          

@@ -88,7 +88,7 @@ function About () {
 
                   <p className="paragraphLine"></p>
 
-                  <p className="text-center">If you want to know <b>more about me</b>, check my <a href="https://www.linkedin.com/in/jesusruapareja/?locale=en_US"  target="_blank" rel="noreferrer" className="linkClass">Linkedin</a> profile or download  <a href="./CV_JESUSRUA_ENGLISH.pdf" download="JESUS_RUA_CV_ENSGLISH" className="linkClass">my resume</a>.</p>
+                  <p className="text-center">If you want to know <b>more about me</b>, check my <a href="https://www.linkedin.com/in/jesusruapareja/?locale=en_US"  target="_blank" rel="noreferrer" className="linkClassAbout">Linkedin</a> profile or download  <a href="./CV_JESUSRUA_ENGLISH.pdf" download="JESUS_RUA_CV_ENSGLISH" className="linkClassAbout">my resume</a>.</p>
 
                 </Col>
               </Row>

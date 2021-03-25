@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import Styles from './Contact.css';
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin, faGithubSquare} from '@fortawesome/free-brands-svg-icons';
@@ -59,8 +60,8 @@ function Contact () {
             <p>Cheers! And follow me on:</p>
             <Row>
               <Col>
-                <a href="https://www.linkedin.com/in/jesusruapareja/?locale=en_US" target="_blank" rel="noreferrer" className="linkClass"><FontAwesomeIcon className="techLogos m-2" icon={faLinkedin}/></a>
-                <a href="https://github.com/jesusrua" target="_blank" rel="noreferrer" className="linkClass"><FontAwesomeIcon className="techLogos m-2" icon={faGithubSquare}/></a>
+                <a href="https://www.linkedin.com/in/jesusruapareja/?locale=en_US" target="_blank" rel="noreferrer" ><FontAwesomeIcon className="techLogos m-2 linkClassContact" icon={faLinkedin}/></a>
+                <a href="https://github.com/jesusrua" target="_blank" rel="noreferrer"><FontAwesomeIcon className="techLogos m-2 linkClassContact" icon={faGithubSquare}/></a>
               </Col>
             </Row>
           </Col>

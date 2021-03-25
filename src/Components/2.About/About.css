@@ -11,9 +11,18 @@
   min-height: 80vh;
 }
 
-.linkClass {
+.linkClassAbout {
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
+  color: #29618b;
+}
+
+.linkClass2:hover {
+  color: #073a61;
+  text-decoration: none;
+}
+
+.linkClass2:visited {
   color: #29618b;
 }
 

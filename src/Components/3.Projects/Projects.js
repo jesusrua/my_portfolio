@@ -46,7 +46,7 @@ function Projects () {
               <Card.Title className="mt-4">TRAVEL SAFE</Card.Title>
               <Card.Body>
               <Card.Text>
-                  Web app created to help the LGBTQ+ community get real information about the conditions they can find in their travel destinations thanks to the user comments about real experiences. From scratched to deployed in 7 days.
+                  Created to help the LGBTQ+ community get real information about the conditions they can find in their travel destinations thanks to the users comments about real experiences. From scratched to deployed in 7 days.
               </Card.Text>
               <Card.Subtitle className="mb-3">JS, NodeJs/ExpressJs, HBS, Bootstrap, Mongo Atlas, Heroku.</Card.Subtitle>
               <Card.Text>

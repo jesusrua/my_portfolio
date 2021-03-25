@@ -21,17 +21,18 @@
   font-weight: bold;
 }
 
-.linkClass {
+.linkClassContact {
   font-weight: bold;
   text-decoration: underline;
   color: white;
   text-decoration: none;
 }
 
-.linkClass:hover {
+.linkClassContact:hover {
   color: #073a61;
   text-decoration: none;
 }
-.linkClass:visited {
+
+.linkClassContact:visited {
   color: white;
 }
