@@ -9,18 +9,18 @@
   font-weight: 900;
 }
 
-.btn2 {
+/* .btn2 {
   background-color: #9EA3B0 !important;
   color: #0D1F2D !important;
   font-weight: bold !important;
-}
+} */
 
-.btn2:hover {
+.btn:hover {
   background-color: #7a7d86 !important;
   color: white !important;
 }
 
-.btn2:focus {
+.btn:focus {
   outline: none !important;
   outline-offset: none !important;
   background-color: #7a7d86;
