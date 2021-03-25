@@ -44,19 +44,19 @@ function Contact () {
             <Form onSubmit={sendEmail}>
               <Form.Group>
                 <Form.Label className="formTitle">Subject:</Form.Label>
-                <Form.Control type="text" placeholer="Subject" name="subject"/>
+                <Form.Control type="text" placeholer="Subject" name="subject" required />
               </Form.Group>
               <Form.Group>
                 <Form.Label className="formTitle">Name:</Form.Label>
-                <Form.Control type="text" placeholer="Name" name="name" />
+                <Form.Control type="text" placeholer="Name" name="name" required />
               </Form.Group>
               <Form.Group>
                 <Form.Label className="formTitle">Email:</Form.Label>
-                <Form.Control type="email" placeholer="Email" name="email" />
+                <Form.Control type="email" placeholer="Email" name="email" required />
               </Form.Group>
               <Form.Group>
                 <Form.Label className="formTitle">Message:</Form.Label>
-                <Form.Control as="textarea" rows={3} placeholder="Your message" name="message" />
+                <Form.Control as="textarea" rows={3} placeholder="Your message" name="message" required />
               </Form.Group>
               <Col className="text-center">
                 <Button type="submit">
